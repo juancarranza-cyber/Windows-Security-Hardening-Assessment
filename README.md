@@ -46,6 +46,27 @@ Reviewing system information helps analysts understand the environment being ass
 ![System Memory](Screenshots-Windows-Security/02_System_Memory.PNG)
 
 
+## 2. Windows Firewall Assessment
+
+The Windows Defender Firewall configuration was reviewed as part of the security hardening assessment.
+
+Firewalls are a critical security control because they help regulate network communications and reduce exposure to unauthorized access attempts.
+
+The review focused on verifying that the firewall was enabled and actively protecting the system through its security profiles.
+
+### Assessment Findings
+
+The firewall profiles were reviewed using native Windows tools. The assessment confirmed that Windows Defender Firewall was enabled and actively protecting the system.
+
+No disabled firewall profiles were identified during the review.
+
+### Security Assessment
+
+An enabled firewall helps prevent unauthorized inbound connections and reduces the attack surface exposed to external systems.
+
+Maintaining active firewall protection is considered a fundamental security best practice for both enterprise and personal systems.
+
+![Windows Firewall](Screenshots-Windows-Security/03_Windows_Firewall.PNG)
 
 
 
