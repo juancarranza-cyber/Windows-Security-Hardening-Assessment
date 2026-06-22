@@ -41,9 +41,9 @@ The system was identified as a Windows 10 workstation running on a 64-bit archit
 
 Reviewing system information helps analysts understand the environment being assessed and provides context for security configuration reviews.
 
-![System Information](Windows-Hardening/01_System_Information.PNG)
+![System Information](Screenshots-Windows-Security/01_System_Information.PNG)
 
-![System Memory](Windows-Hardening/02_System_Memory.PNG)
+![System Memory](Screenshots-Windows-Security/02_System_Memory.PNG)
 
 
 
