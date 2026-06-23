@@ -157,6 +157,51 @@ The presence of active audit configurations improves monitoring capabilities and
 ![Audit Policy Part 2](Screenshots-Windows-Security/06_Audit_Policy_2.PNG)
 
 
+## 6. Local Users Assessment
+
+The local user accounts configured on the system were reviewed using the Windows `net user` command.
+
+Reviewing local accounts is an important security practice because unused, unnecessary, or improperly managed accounts can increase the attack surface of a system.
+
+The assessment focused on identifying existing local accounts and reviewing their purpose within the operating system.
+
+### Assessment Findings
+
+Several local user accounts were identified during the review, including default Windows accounts and user-created accounts.
+
+The system contained standard built-in accounts used by Windows as well as the primary user account utilized during normal system operation.
+
+### Security Assessment
+
+Maintaining visibility into local user accounts helps security administrators identify unnecessary accounts, review account usage, and verify compliance with security policies.
+
+Unused or unauthorized accounts should be disabled or removed to reduce potential security risks and minimize opportunities for unauthorized access.
+
+Regular account reviews are considered a security best practice in both enterprise and personal environments.
+
+![Local Users](Screenshots-Windows-Security/07_Local_Users.PNG)
+
+## 7. Administrator Privileges Assessment
+
+The local Administrators group was reviewed using the Windows `net localgroup administrators` command.
+
+Administrative privileges provide elevated access to system resources and security settings. As a result, membership within the Administrators group should be carefully controlled and regularly reviewed.
+
+### Assessment Findings
+
+The assessment identified the accounts that currently possess local administrator privileges on the system.
+
+These accounts have the ability to install software, modify security settings, manage user accounts, and perform other privileged administrative tasks.
+
+### Security Assessment
+
+Limiting administrative privileges helps reduce the impact of compromised accounts and supports the principle of least privilege.
+
+Organizations commonly review administrator group membership to ensure that only authorized users retain elevated access.
+
+Regular privilege reviews help strengthen system security and reduce opportunities for privilege misuse.
+
+![Local Administrators](Screenshots-Windows-Security/08_Local_Administrators.PNG)
 
 
 
