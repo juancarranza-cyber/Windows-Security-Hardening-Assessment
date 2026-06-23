@@ -204,6 +204,64 @@ Regular privilege reviews help strengthen system security and reduce opportuniti
 ![Local Administrators](Screenshots-Windows-Security/08_Local_Administrators.PNG)
 
 
+## Key Findings
+
+During the assessment, several important security findings were identified:
+
+* Windows Defender Firewall was enabled and actively protecting the system.
+* Microsoft Defender Antivirus was operational and no active threats were detected.
+* Password expiration was configured with a maximum age of 42 days.
+* Minimum password length was configured as 0 characters.
+* Password history enforcement was not configured.
+* Account lockout protection was disabled.
+* Audit policies were configured to record multiple security-related events.
+* Local user accounts and administrator privileges were successfully reviewed.
+
+The assessment identified both effective security controls and opportunities for improvement within the system's security configuration.
+
+
+## Security Recommendations
+
+Based on the assessment findings, the following recommendations were identified:
+
+1. Configure a minimum password length of at least 12 characters.
+2. Enable password history enforcement to prevent password reuse.
+3. Configure an account lockout threshold to reduce brute-force attack risks.
+4. Periodically review local user accounts and remove unused accounts.
+5. Review administrator group membership on a regular basis.
+6. Maintain Windows Defender and security updates in an active state.
+7. Continue monitoring audit logs for security-related events.
+
+Implementing these recommendations would further strengthen the overall security posture of the system.
+
+
+## Skills Demonstrated
+
+This project provided hands-on experience with:
+
+* Windows Security Assessment
+* Security Hardening Fundamentals
+* Firewall Configuration Review
+* Microsoft Defender Analysis
+* Password Policy Assessment
+* Audit Policy Review
+* User Account Security
+* Privilege Management
+* Security Control Evaluation
+* Cybersecurity Documentation
+
+
+## Conclusion
+
+This project demonstrated a Windows security hardening assessment using native Windows security tools and configuration reviews.
+
+The assessment evaluated firewall protection, endpoint security, password policies, audit logging, local user accounts, and administrative privileges to determine the overall security posture of the system.
+
+Several effective security controls were identified, including active firewall protection, operational endpoint security, and configured audit logging. The assessment also revealed opportunities for improvement related to password security and account lockout protection.
+
+Through this project, practical experience was gained in system security assessment, security control evaluation, risk identification, and cybersecurity documentation.
+
+The project highlights the importance of security hardening as a foundational component of defensive cybersecurity and system protection.
 
 
 
