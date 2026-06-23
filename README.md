@@ -125,6 +125,68 @@ The most significant finding was that account lockout protection was disabled. W
 ![Password Policy](Screenshots-Windows-Security/05_Password_Policy.PNG)
 
 
+## 5. Audit Policy Assessment
+
+The Windows audit policy configuration was reviewed using the `auditpol` utility.
+
+Audit policies determine which security-related activities are recorded within Windows event logs and provide critical visibility for security monitoring, incident response, and forensic investigations.
+
+The assessment focused on identifying whether important security events were being logged by the operating system.
+
+### Assessment Findings
+
+The audit policy review showed that Windows was configured to record multiple security-related events across several categories, including:
+
+* Logon and Logoff Events
+* Account Management
+* Policy Change Events
+* Privilege Use
+* System Events
+* Object Access Activities
+
+### Security Assessment
+
+Audit logging provides visibility into user activity, authentication attempts, system changes, and security-related events occurring within the operating system.
+
+Maintaining audit policies is essential for detecting suspicious activity, investigating incidents, and supporting forensic analysis.
+
+The presence of active audit configurations improves monitoring capabilities and strengthens the overall security posture of the system.
+
+![Audit Policy Part 1](Screenshots-Windows-Security/06_Audit_Policy.PNG)
+
+![Audit Policy Part 2](Screenshots-Windows-Security/06_Audit_Policy_2.PNG)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
