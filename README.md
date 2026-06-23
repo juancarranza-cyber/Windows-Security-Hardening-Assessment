@@ -68,6 +68,27 @@ Maintaining active firewall protection is considered a fundamental security best
 
 ![Windows Firewall](Screenshots-Windows-Security/03_Windows_Firewall.PNG)
 
+## 3. Microsoft Defender Assessment
+
+The Microsoft Defender Antivirus configuration was reviewed to verify the status of the system's endpoint protection.
+
+Endpoint protection solutions play a critical role in detecting, preventing, and responding to malicious software, suspicious activity, and security threats targeting Windows systems.
+
+The review focused on confirming that Microsoft Defender was operational and actively protecting the device.
+
+### Assessment Findings
+
+The assessment confirmed that Microsoft Defender Antivirus was enabled and functioning correctly.
+
+No active threats were identified at the time of the review, and the endpoint protection service was actively monitoring the system.
+
+### Security Assessment
+
+Maintaining active endpoint protection helps reduce the risk of malware infections, unauthorized software execution, and other security threats.
+
+Microsoft Defender provides real-time protection, threat detection capabilities, and integration with Windows security features, making it an important component of the overall security posture.
+
+![Microsoft Defender](Screenshots-Windows-Security/04_Microsoft_Defender.PNG)
 
 
 
