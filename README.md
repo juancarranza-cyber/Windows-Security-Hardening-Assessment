@@ -90,6 +90,39 @@ Microsoft Defender provides real-time protection, threat detection capabilities,
 
 ![Microsoft Defender](Screenshots-Windows-Security/04_Microsoft_Defender.PNG)
 
+## 4. Password Policy Assessment
+
+The local password policy was reviewed using the Windows `net accounts` command.
+
+Password policies are an important security control because they help protect user accounts against unauthorized access, credential guessing, and brute-force attacks.
+
+The assessment focused on password age requirements, password history enforcement, minimum password length, and account lockout settings.
+
+### Assessment Findings
+
+The following password policy settings were identified:
+
+* Maximum password age: 42 days
+* Minimum password length: 0 characters
+* Password history enforcement: Not configured
+* Account lockout threshold: Disabled (Never)
+
+### Security Assessment
+
+The system enforced periodic password changes through a maximum password age of 42 days. However, several weaknesses were identified during the review.
+
+The minimum password length requirement was configured as 0 characters, allowing weak passwords to be used. Additionally, password history enforcement was not configured, which may allow password reuse.
+
+The most significant finding was that account lockout protection was disabled. Without an account lockout threshold, unlimited authentication attempts could be performed without triggering a temporary account lockout.
+
+### Recommendations
+
+* Configure a minimum password length of at least 12 characters.
+* Enable password history enforcement.
+* Configure an account lockout threshold to reduce brute-force attack risks.
+* Review password complexity requirements through Local Security Policy.
+
+![Password Policy](Screenshots-Windows-Security/05_Password_Policy.PNG)
 
 
 
